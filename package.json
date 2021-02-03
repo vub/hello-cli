@@ -1,0 +1,15 @@
+{
+  "name": "vub-hello-cli",
+  "version": "1.0.0",
+  "description": "Hello fisrt package in npm",
+  "main": "./bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vu Bui",
+  "license": "ISC",
+  "bin": {
+    "hello": "./bin/index.js",
+    "hello-cli": "./bin/index.js"
+  }
+}
